@@ -1,22 +1,17 @@
-import styled from 'styled-components';
+import { Suspense } from 'react';
+import { Toaster } from 'react-hot-toast';
+import { Outlet } from 'react-router-dom';
+import { AppBar } from './AppBar/AppBar';
 
-export const Container = styled.div`
-  padding: 10px 50px;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  margin-top: 10px;
-  box-shadow: 6px 7px 43px 4px rgba(0, 0, 0, 1);
-  background-color: #d8bfd8;
-  & h1 {
-    margin-bottom: 20px;
-  }
-  font-size: 20px;
-  font-family: MONOSPACE;
 
-`;
+export const Container = () => {
+  return (
+    <div style={{ maxWidth: 960, margin: '0 auto', padding: '0 16px' }}>
+      <AppBar />
+      <Suspense fallback={null}>
+        <Outlet />
+      </Suspense>
+      <Toaster position="top-right" reverseOrder={false} />
+    </div>
+  );
+  };

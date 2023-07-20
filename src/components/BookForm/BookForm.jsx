@@ -3,8 +3,8 @@ import * as Yup from 'yup';
 import { Formik } from 'formik';
 import { Form, FormField, Field, ErrorMessage, SubmitButton } from "./BookForm.styled"
 import { useDispatch } from 'react-redux';
-import { addContact } from 'redux/operations';
-import { useContacts } from 'hooks/useContacts';
+import { addContact } from 'redux/contacts/operations';
+import { useContacts } from 'hooks';
 
 
 const BookSchema = Yup.object().shape({
