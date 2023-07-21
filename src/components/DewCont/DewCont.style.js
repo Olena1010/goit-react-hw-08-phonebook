@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const DewCont = styled.div`
   writing-mode: vertical-rl;
-  height: 100vh;
+  height: 100%;
   width: 50px;
-  background: rgba(8, 8, 8, 0.46);
+  background: rgba(199, 21, 133, 0.45);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
   backdrop-filter: blur(6.3px);
   -webkit-backdrop-filter: blur(6.3px);

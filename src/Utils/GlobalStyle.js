@@ -1,7 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
 import 'modern-normalize';
-// import img from '../../img/phone-book.jpeg';
-// import img from '../../img/book.jpg';
 
 export const GlobalStyle = createGlobalStyle`
 body {
@@ -18,7 +16,7 @@ body {
     linear-gradient(90deg,#E6E6FA,#E6E6FA);
   // background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 50%;
+  background-position-y: cover;
   }
   h1 {
    font-family: FANTASY;

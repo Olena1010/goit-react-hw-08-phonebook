@@ -9,22 +9,22 @@ export const List = styled.ul`
   padding: 30px;
   width: 600px;
   height: auto;
-  // overflow-y: scroll;
+  overflow-y: scroll;
+  margin-bottom: auto;
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
 
-  // &::-webkit-scrollbar {
-  //   width: 7px;
-  // }
+  &::-webkit-scrollbar-track {
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+  }
 
-  // &::-webkit-scrollbar-track {
-  //   box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
-  //   background-color: #f9f9fd;
-  //   border-radius: 10px;
-  // }
-
-  // &::-webkit-scrollbar-thumb {
-  //   border-radius: 10px;
-  //   background: linear-gradient(180deg, #ff69b4, #c71585);
-  // }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #ff69b4, #c71585);
+  }
 `;
 
 export const Item = styled.li`
@@ -34,7 +34,7 @@ export const Item = styled.li`
   padding: 10px;
   border-radius: 8px;
   // background: rgba(255, 255, 255, 0.29);
-  background: rgba(8, 8, 8, 0.46);
+  background: rgba(8, 8, 8, 0.46);                           
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.3px);
   -webkit-backdrop-filter: blur(6.3px);
@@ -53,11 +53,10 @@ export const ContactWrapper = styled.div`
   height: 100%;
   display: flex;
   gap: 15px;
-  // justify-content: center;
   align-items: center;
   font-size: 23px;
   font-weight: 500;
-  padding: 10px;
+  // padding: 10px;
 `
 
 export const DeleteButton = styled.button`

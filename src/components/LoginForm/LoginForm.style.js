@@ -30,7 +30,7 @@ export const Field = styled(BookInput)`
 font-size: 22px;
 padding: 5px;
 border-radius: 6px;
-border: 2px solid blue;
+border: 2px solid #4B0082;
 height: 45px;
 `;
 
@@ -51,7 +51,7 @@ display: block;
  border: 0;
  cursor: pointer;
  will-change: box-shadow,transform;
- background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+ background: radial-gradient(100% 100% at 100% 0%, #ff69b4 0%, #c71585 100%);
  box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
  padding: 0 2em;
  border-radius: 0.3em;

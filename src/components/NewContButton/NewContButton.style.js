@@ -2,12 +2,12 @@ import styled from 'styled-components';
 
 export const NewContButton = styled.button`
   display: block;
-  width: 500px;
-  // width: 80%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 28px;
+  font-family: fantasy;
   display: inline-block;
   outline: 0;
   border: 0;
