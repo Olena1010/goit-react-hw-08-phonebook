@@ -24,9 +24,18 @@ export const LoginForm = () => {
       }}
     >
       <Form>
-        <IconContext.Provider value={{ size: "150px", style: { marginTop: '-80px', marginRight: "auto", marginLeft: "auto" } }}>
-        <FcAddressBook/>
-      </IconContext.Provider>
+        <IconContext.Provider
+          value={{
+            size: '150px',
+            style: {
+              marginTop: '-80px',
+              marginRight: 'auto',
+              marginLeft: 'auto',
+            },
+          }}
+        >
+          <FcAddressBook />
+        </IconContext.Provider>
         <FormField>
           Email
           <Field name="email" placeholder="Email" type="email" />
