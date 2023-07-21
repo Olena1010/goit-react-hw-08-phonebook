@@ -12,9 +12,9 @@ body {
     background-color: #E6E6FA;
   
       background-image: 
-    url(https://img.freepik.com/free-vector/beautiful-watercolor-background_23-2148486848.jpg?w=2000),
+    url(https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3Bob25lLW51bWJlcnMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9LCJ0b0Zvcm1hdCI6ImF2aWYifX0=),
     linear-gradient(90deg,#E6E6FA,#E6E6FA);
-  // background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-y: cover;
   }

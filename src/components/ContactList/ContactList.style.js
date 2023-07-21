@@ -34,7 +34,7 @@ export const Item = styled.li`
   padding: 10px;
   border-radius: 8px;
   // background: rgba(255, 255, 255, 0.29);
-  background: rgba(8, 8, 8, 0.46);                           
+  // background: rgba(8, 8, 8, 0.46);                           
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.3px);
   -webkit-backdrop-filter: blur(6.3px);

@@ -8,9 +8,11 @@ const styles = {
     justifyContent: 'center',
   },
   title: {
-    fontWeight: 500,
+    fontWeight: 700,
     fontSize: 48,
     textAlign: 'center',
+    color: '#ffff',
+    textShadow: '2px 2px 4px #000000'
   },
 };
 
