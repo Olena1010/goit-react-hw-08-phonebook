@@ -11,5 +11,5 @@ font-weight: 700;
 
 export const StyledLink = styled(NavLink)`
 text-decoration: none;
-color: black;
+color: #ffffff;
 `;

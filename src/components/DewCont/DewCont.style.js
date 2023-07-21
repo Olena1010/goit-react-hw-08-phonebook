@@ -10,10 +10,10 @@ export const DewCont = styled.div`
   /* height: 76vh; */
   /* border-radius: 8px; */
   background: rgba(8, 8, 8, 0.46);
-  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
   backdrop-filter: blur(6.3px);
   -webkit-backdrop-filter: blur(6.3px);
-  /* border: 1px solid #ffffff; */
+  // border: 1px solid #ffffff; 
   
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -39,4 +39,4 @@ export const Link = styled.a`
   right: 0;
   height: 100vh;
   z-index: 1;
-`
+`;

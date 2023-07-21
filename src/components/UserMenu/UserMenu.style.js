@@ -2,11 +2,13 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
-  gap: 10px;
+  gap: 50px;
+  color: #ffffff;
   p {
     margin: 0;
     font-size: 20px;
     font-weight: 500;
+    color: #ffffff;
   }
   button {
     background-color: inherit;
