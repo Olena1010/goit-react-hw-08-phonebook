@@ -1,15 +1,15 @@
 import styled from 'styled-components';
 
-export const LayoutPage = styled.div`
-  padding: 20px 100px;
-  width: fit-content;
+export const ContactWrapper = styled.div`
+  padding: 20px 50px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 98vh;
+  height: 80vh;
   margin-top: 10px;
   box-shadow: 6px 7px 43px 4px rgba(0, 0, 0, 1);
   background: rgb(0, 0, 0);

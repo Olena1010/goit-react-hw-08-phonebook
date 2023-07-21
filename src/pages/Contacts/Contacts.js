@@ -6,13 +6,13 @@ import {
   ContactList,
 } from 'components';
 
-import { GlobalStyle } from './GlobalStyle';
+import { GlobalStyle } from '../../components/Utils/GlobalStyle';
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Modal from 'components/Modal/Modal';
 import { fetchContacts } from 'redux/contacts/operations';
 import { selectError, selectIsLoading } from 'redux/contacts/selectors';
-import { LayoutPage } from './LayoutPage';
+import { ContactWrapper } from '../../components/ContactInfo/ContactInfo.style';
 
 export default function Contacts() {
   const [showModal, setShowModal] = useState(false);
@@ -29,7 +29,7 @@ export default function Contacts() {
   }, [dispatch]);
 
   return (
-    <LayoutPage>
+    <ContactWrapper>
       <GlobalStyle />
       <h1>Phonebook</h1>
       <NewContactBtn showModal={toggleModal} />
@@ -43,6 +43,6 @@ export default function Contacts() {
           <BookForm closeModal={toggleModal} />
         </Modal>
       )}
-    </LayoutPage>
+    </ContactWrapper>
   );
 }
